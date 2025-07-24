@@ -3,7 +3,7 @@
 ## Cel 
 
  Moje przygody z rustem są jednocześnie kilkoma rzeczami.
-- nauką rustem
+- nauką rusta
 - Zabawą w programowanie gier z raylib
 - miejscem trenowania nowych narzędzi 
 
