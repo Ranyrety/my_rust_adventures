@@ -1,0 +1,35 @@
+# .gitignore
+
+# Rust/Cargo artifacts
+# Ignore the 'target' directory in each individual project
+src/*/target/
+
+# Cargo build artifacts for the main workspace (if you ever make it a workspace)
+# If you decide to make this a Cargo workspace in the future, you'd also ignore a top-level target/
+# target/
+
+# Cargo.lock file for individual projects (optional, but common for applications)
+# For a multi-project setup like this, each project will have its own Cargo.lock.
+# It's generally recommended to commit Cargo.lock for applications for reproducible builds,
+# but for learning, you might choose to ignore it if you want to always build with the latest compatible dependencies.
+# If you uncomment the line below, each src/<project>/Cargo.lock will be ignored.
+# src/*/Cargo.lock
+
+# Operating System specific files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# IDE specific files
+.idea/      # IntelliJ IDEA
+.vscode/    # VS Code
+*.iml       # IntelliJ IDEA module files
+
+# Editor backup files
+*~
+#*#
+*.bak
+*.swp
+*.swo
+
+# Raylib specific (if any temporary files are generated, though less common)
+# Add any other generated files or assets that should not be committed
